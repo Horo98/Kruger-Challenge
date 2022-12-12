@@ -41,39 +41,59 @@ module.exports = (sequelize) => {
       password: {
         type: DataTypes.TEXT,
         allowNull: true,
-        validate: {
-          len: {
-            args: [4, 255],
-            msg: "The password length should be between 6 and 255 characters.",
-          },
-        },
+        unique: true,
+        // validate: {
+        //   len: {
+        //     args: [10, 10],
+        //     msg: "La cedula tiene que tener 10 numeros",
+        //   },
+        // },
       },
-      identification: {
+
+
+      telefono: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        // validate: {
+        //   is: {
+        //     args: /^((\+|)[0-9]{1,3}(-|\s)[0-9]{2,4}(-|\s)[0-9]{6,8})$/,
+        //     msg: "Enter a valid phone",
+        //   },
+        // },
+      },
+      birth: {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      phone: {
+      domicilio: {
         type: DataTypes.STRING,
         allowNull: true,
-        validate: {
-          is: {
-            args: /^((\+|)[0-9]{1,3}(-|\s)[0-9]{2,4}(-|\s)[0-9]{6,8})$/,
-            msg: "Enter a valid phone",
-          },
-        },
+      },
+      vacunacion:{
+        type: DataTypes.STRING,
+        allowNull:true,
+
+      },
+      tipoVacuna:{
+        type: DataTypes.STRING,
+        allowNull:true,
+
+      },
+      fechavacuna:{
+        type: DataTypes.STRING,
+        allowNull:true,
+
+      },
+      numerodosis:{
+        type: DataTypes.INTEGER,
+        allowNull:true,
+
       },
       isAdmin: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
       },
-      address: {
-        type: DataTypes.INTEGER,
-        defaultValue: 0,
-      },
-      isActive: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-      },
+
     },
     {
       timestamp: false,

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Noto+Sans:wght@200&display=swap");
+
+
+
+.move {
+  margin-left: 2px;
+  margin-right: 30px;
+
+  /* align-items: flex-end; */
+}
+
+.box {
+  padding-top: 20px;
+  margin-top: 30px;
+  float: none;
+  margin-left: 0%;
+  padding: 2%;
+  margin-top: 1%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f0f0f067;
+  height: 31em;
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(231, 226, 226, 0.75);
+  padding-bottom: 4rem
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #8a9bff;
+  padding: 30px;
+}
+
+.font {
+  font-size: 19px;
+  color: rgb(61, 60, 60);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+.errorsName {
+  color: rgb(143, 11, 11);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+
+
+
+}
+
+.errorsMail {
+  color: rgb(143, 11, 11);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+ 
+}
+
+.errorsPassword {
+  color: rgb(143, 11, 11);
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  
+
+}
+
+.red {
+	box-shadow:inset 0px 1px 0px 0px #4b0903;
+	background:linear-gradient(to bottom, #f24537 5%, #971004 100%);
+	background-color:#9c0e04;
+	border-radius:6px;
+	border:1px solid #8a1005;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+  
+
+ 
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(231, 226, 226, 0.75);
+  width: 30%;
+}
+.red:hover {
+	background:linear-gradient(to bottom, #8f0e02 5%, #880d04 100%);
+	background-color:#ce220f;
+}
+.red:active {
+	position:relative;
+	top:1px;
+}
+
+.blue {
+	box-shadow:inset 0px 1px 0px 0px #4b0903;
+	background:linear-gradient(to bottom, #f24537 5%, #971004 100%);
+	background-color:#9c0e04;
+	border-radius:6px;
+	border:1px solid #8a1005;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+
+
+
+ 
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(231, 226, 226, 0.75);
+  width: 30%;
+}
+.blue:hover {
+	background:linear-gradient(to bottom, #8f0e02 5%, #880d04 100%);
+	background-color:#ce220f;
+}
+.blue:active {
+	position:relative;
+	top:1px;
+}
+
+        
